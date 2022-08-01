@@ -8,8 +8,8 @@ function App() {
   return (
     <BrowserRouter>
       <Routes>
-        <Route path="/" element={<Home />} />
-        <Route path="/films" element={<FilmLibrary />}>
+        {/* <Route path="/" element={<Home />} /> */}
+        <Route path="/" element={<FilmLibrary />}>
           <Route path=":FilmId" element={<FilmDetail />} />
         </Route>
 
